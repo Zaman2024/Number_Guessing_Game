@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Number Guessing Game</h2>
+        <div class="flex">
+            <form class="form">
+                <label for="guessNo" style="text-align: center;margin-left:45px;">Guess a Number</label>
+                <div class="rslt" id="result"></div>
+                <div class="container">
+                    <input type="text" id="guessNo" class="guessNo"/><br>
+                    <input type="submit" id="submit" /><br>
+                    <button id="btn" onclick="reset()">Reset</button>
+                </div>
+            </form>
+            <div class="inform">
+                <p class="pre-gssNo">Pre-Guesses: - <span id="pre-gssNo"></span></p>
+                <p class=""></p>
+                <p class="totalGuessNos">Remaining Guesses:  <span id="totalGuessNos">10</span></p>
+            </div>
+        </div>
+    </div>
+    <!-- script code-->
+    <script src="script.js"></script>
+</body>
+
+</html>

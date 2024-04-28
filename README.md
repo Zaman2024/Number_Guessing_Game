@@ -1,2 +1,2 @@
-﻿# Number_Guessing_Game-07
+﻿# Number_Guessing_Game
 # JavaScript Basic Projects-07
